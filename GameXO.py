@@ -58,8 +58,12 @@ def check_win():
             return True
     return False
 
+greet()
+
 field = [[" "] * 3 for i in range(3)]
+
 numb = 0
+
 while True:
     numb += 1
 
